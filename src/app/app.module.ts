@@ -11,6 +11,8 @@ import { SectionRegisterComponent } from './components/section-register/section-
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, ToolBarComponent, SectionRegisterComponent],
@@ -23,6 +25,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatInputModule,
     BrowserAnimationsModule,
     MatFormFieldModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
