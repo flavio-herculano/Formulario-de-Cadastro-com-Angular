@@ -1,1 +1,73 @@
-<section class="container"></section>
+<section class="container">
+  <form class="form-grid">
+    <mat-form-field color="#ccc" class="input-width" appearance="fill">
+      <mat-label>Nome</mat-label>
+      <input matInput placeholder="Maria" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Sobrenome</mat-label>
+      <input matInput placeholder="Joaquina" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Data de nascimento</mat-label>
+      <input type="date" matInput value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>CPF</mat-label>
+      <input matInput placeholder="231.002. 999-00" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Telefone</mat-label>
+      <input type="tel" matInput placeholder="+11 9 4555-1234" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>E-mail</mat-label>
+      <input matInput placeholder="email@exemplo.com" value="" />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Senha</mat-label>
+      <input
+        matInput
+        [type]="hide ? 'password' : 'text'"
+        placeholder="••••••••"
+      />
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Confirmar Senha</mat-label>
+      <input
+        matInput
+        [type]="hide ? 'password' : 'text'"
+        placeholder="••••••••"
+      />
+    </mat-form-field>
+  </form>
+  <h1 class="container-text">Endereço</h1>
+  <form class="form-grid">
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>CEP</mat-label>
+      <input matInput placeholder="01311-000" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Logradouro</mat-label>
+      <input matInput placeholder="Avenida Paulista" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Número</mat-label>
+      <input matInput placeholder="234" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Complemento</mat-label>
+      <input matInput placeholder="ex.: apt. 42" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Bairro</mat-label>
+      <input matInput placeholder="Bairro Bela Vista" value="" />
+    </mat-form-field>
+    <mat-form-field class="input-width" appearance="fill">
+      <mat-label>Cidade</mat-label>
+      <input matInput placeholder="São Paulo" value="" />
+    </mat-form-field>
+  </form>
+</section>

@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section-register.component.css'],
 })
 export class SectionRegisterComponent implements OnInit {
+  hide = true;
+
   constructor() {}
 
   ngOnInit(): void {}

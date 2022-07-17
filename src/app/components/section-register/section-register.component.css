@@ -1,18 +1,29 @@
 .container {
   margin-top: 23px;
-  height: 50%;
   width: 83.33%;
   background-color: #405d6d;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
+  padding-top: 34px;
+
+  text-align: center;
 }
-.example-form {
-  min-width: 150px;
-  max-width: 500px;
+.container-text {
+  padding: 16px;
+}
+
+.input-width {
   width: 100%;
 }
 
-.example-full-width {
-  width: 100%;
+.form-grid {
+  gap: 8px 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-left: 6.66%;
+  padding-right: 6.66%;
+}
+::placeholder {
+  color: #ffffff;
 }
