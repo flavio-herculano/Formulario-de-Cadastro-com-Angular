@@ -27,3 +27,20 @@ mat-toolbar {
 .top-bar-text:hover {
   color: #ccc;
 }
+@media only screen and (max-width: 900px) {
+  .top-bar-text {
+    padding-left: 4%;
+    font-size: 1rem;
+  }
+  * {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .top-bar-text {
+    display: none;
+  }
+  .img-logo {
+    width: 80%;
+  }
+}
