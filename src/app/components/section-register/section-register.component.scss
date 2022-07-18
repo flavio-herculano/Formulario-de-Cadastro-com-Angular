@@ -51,18 +51,29 @@
   color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   .container-button{
     width: 50%;
     
   }
 }
 @media only screen and (max-width: 470px) {
+  .container-text {
+    padding: 8px;
+    padding-top: 16px;
+  }
   .container-button{
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding: 0px 0px;
     width: 50%;
+    font-size: 1.2rem;
   }
   .container{
+    margin-top: 8px;
+    margin-bottom: 8px;
     width: 100%;
+    padding-top: 32px;
   }
   .form-grid {
     gap: 0px 1%;
@@ -71,4 +82,13 @@
     padding-left: 1%;
     padding-right: 1%;
   }
+  * {
+    font-size: 0.9rem;
+  }
+  ::placeholder {
+    font-size: 0.9rem;
+  }
+input {
+  font-size: 0.9rem;
+}
 }
